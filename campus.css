@@ -1,0 +1,132 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#campus a
+{
+    text-decoration: underline;
+}
+
+
+.nav
+{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    z-index: 10;
+}
+
+.gallery
+{
+    position: absolute;
+    width: 81.25%;
+    height: 1000px;
+    margin-left: 9.5%;
+}
+
+.prefects-tab
+{
+    display: flex;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    margin-top: 10%;
+    align-items: center;
+}
+
+#prefects
+{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 2%;
+}
+
+.prefect-img
+{
+    position: absolute;
+    margin-top: 18%;
+}
+
+svg
+{
+    margin-left: 77%;
+}
+
+.scouts-tab
+{
+    display: flex;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    margin-top: 120%;
+    align-items: center;
+}
+
+#scouts
+{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 2%;
+}
+
+.scout-img
+{
+    position: absolute;
+    margin-top: 128%;
+
+}
+
+.vln-tab
+{
+    display: flex;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    margin-top: 265%;
+    align-items: center;
+}
+
+#vlns
+{
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-left: 2%;
+}
+
+.vln-img
+{
+    position: absolute;
+    margin-top: 273%;
+}

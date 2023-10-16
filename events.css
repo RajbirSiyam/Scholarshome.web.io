@@ -1,0 +1,42 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#events a
+{
+    text-decoration: underline;
+}
+
+
+.nav
+{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 300;
+    position: absolute;
+    z-index: 10;
+}
+
+img
+{
+    display: block;
+    padding-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
